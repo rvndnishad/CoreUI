@@ -1,0 +1,15 @@
+// Here you can add other styles
+.sidebar-fixed .sidebar, .sidebar .nav, .sidebar .sidebar-nav {
+    width: 280px;
+}
+
+.breadcrumb{
+    padding: 0.75rem 6rem;
+}
+
+.app-footer{
+    padding: 0 6rem;
+}
+html:not([dir="rtl"]) .sidebar {
+    margin-left: -280px;
+}
